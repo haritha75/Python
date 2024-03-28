@@ -1,0 +1,12 @@
+why python papular?
+
+    Ease of Learning: Python's simple syntax and readability make it accessible for beginners and facilitate faster development.
+
+    Versatility: Python's extensive library ecosystem and cross-platform compatibility enable developers to tackle a wide range of tasks, from web development to data analysis and artificial intelligence.
+
+    Strong Community: Python's large and active community provides valuable support, resources, and collaboration opportunities, driving its popularity and continuous development.
+
+How many ways to write and execute python file?
+
+1) using file
+2) python shell
