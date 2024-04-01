@@ -1,0 +1,57 @@
+using python we can solve complex problems in less time with fewer lines of code
+we can use python in al/ml,automation,web apps,mobile apps,testing,hacking data analysis
+reasons
+-> high level
+-> huge community
+-> cross platform - we can bult and run different os also
+-> large ecosysystem - libraties,frameworks and tools
+
+python2 pythpn3 -version
+
+
+Python 2 and Python 3 are two major versions of the Python programming language, each with its own set of features, syntax, and compatibility. 
+Here are some key differences between Python 2 and Python 3:
+
+    Print Statement:
+        Python 2: print "Hello, World"
+        Python 3: print("Hello, World")
+
+    Division:
+        Python 2: Division between two integers returns an integer (truncates the decimal part): 5 / 2 returns 2.
+        Python 3: Division always returns a float: 5 / 2 returns 2.5.
+
+    Unicode Support:
+        Python 2: Strings are ASCII by default. Unicode strings are prefixed with u: u"Hello".
+        Python 3: Strings are Unicode by default. ASCII strings are prefixed with b: b"Hello". Unicode strings can be written directly without a prefix.
+
+    xrange() vs. range():
+        Python 2: xrange() is used for generating a sequence of numbers on demand, suitable for large ranges.-- it return xrange
+        Python 3: range() behaves like Python 2's xrange(), providing the functionality of generating numbers on demand. xrange() is no longer available. -- return list
+
+    input() vs. raw_input():
+        Python 2: raw_input() is used to accept user input as strings.
+        Python 3: raw_input() is renamed to input(). The input() function now behaves like raw_input() from Python 2, whereas Python 3's input() evaluates the user's input as Python expressions.
+
+    dict.keys(), dict.values(), and dict.items():
+        Python 2: These methods return lists.
+        Python 3: These methods return views (dynamic objects reflecting the current state of the dictionary). To get a list, you can use list(dict.keys()), list(dict.values()), and list(dict.items()).
+
+    Error Handling:
+        Python 2: except syntax without parentheses: except IOError, e:
+        Python 3: except syntax with parentheses: except IOError as e:
+
+    next() Function:
+        Python 2: next() is used as next(iterator).
+        Python 3: next() is used as next(iterator, default_value).
+
+    __str__() vs __unicode__():
+        Python 2: __unicode__() is used to return a Unicode representation of an object.
+        Python 3: __str__() is used to return a Unicode representation. The __unicode__() method is not available.
+
+These are just a few of the key differences between Python 2 and Python 3. 
+It's essential to understand these differences when porting code from Python 2 to Python 3 or when starting new projects.
+
+It is a interpreter language means it read line by line 
+It reads and interprets Python scripts or commands line by line, executing them in real-time. 
+The interpreter takes the human-readable Python code as input, parses it, and 
+then translates it into machine-readable bytecode, which is executed by the Python Virtual Machine (PVM).
