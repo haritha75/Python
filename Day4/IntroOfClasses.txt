@@ -1,0 +1,2 @@
+class is a blueprint for creating  new object. ex->  human
+object is instance of a class .ex-> John,Mary,Jack
