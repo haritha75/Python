@@ -21,6 +21,7 @@ Point = namedtuple('Point', ['x', 'y'])
 # Create instances of the Point class
 p1 = Point(1, 2)
 p2 = Point(1, 2)
+# it is like a tuple we cannot do the modification tuple is immutable
 
 # Access fields using named attributes
 print(p1.x, p1.y)  # Output: 1 2
