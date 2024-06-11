@@ -1,0 +1,9 @@
+the Command Query Separation principle is a valuable guideline for designing and structuring code in a way that promotes clarity, maintainability, and robustness. 
+By separating commands and queries, you can make your codebase more predictable, easier to understand, and less error-prone.
+using command we can change the state of the systsem
+or queries  return answer to the caller without  causes side effects
+methods either be command or commands but not both
+
+  Commands are methods or functions that perform an action, modify the state of an object, or cause side effects without returning any value to the caller.
+
+  Queries, on the other hand, are methods or functions that return a result to the caller without causing any side effects or modifying the state of an object.

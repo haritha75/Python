@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+harithapdf.egg-info/PKG-INFO
+harithapdf.egg-info/SOURCES.txt
+harithapdf.egg-info/dependency_links.txt
+harithapdf.egg-info/top_level.txt
